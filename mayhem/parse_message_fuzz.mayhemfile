@@ -1,0 +1,7 @@
+project: gateway
+target: parse-message-fuzz
+
+cmds:
+  - cmd: /parse_message_fuzz
+  - cmd: /parse_message_fuzz_no_inst @@
+    libfuzzer: false

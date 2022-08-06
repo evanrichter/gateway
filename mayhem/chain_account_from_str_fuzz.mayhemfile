@@ -1,0 +1,7 @@
+project: gateway
+target: chain-account-from-str-fuzz
+
+cmds:
+  - cmd: /chain_account_from_str_fuzz
+  - cmd: /chain_account_from_str_fuzz_no_inst @@
+    libfuzzer: false
